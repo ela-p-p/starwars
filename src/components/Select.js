@@ -2,8 +2,8 @@ import React, {Component } from 'react';
 
 class Select extends Component {
     handleChange = event => {
-        console.log(event.target.value)
         this.props.handleSelect(event.target.value)
+        event.target.value = ''
     }
     
 render() {
