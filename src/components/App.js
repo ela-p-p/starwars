@@ -44,10 +44,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="f1 mt1">
+        <header className="f1">
           <h1 >Star Wars Trivia</h1>
         </header>
-        <section className="mt6">
+        <section className="mt5">
           <h3>Test your Star Wars knowledge!</h3>
           <p>Match the name with an item from the dropdown menu</p>
           <button
